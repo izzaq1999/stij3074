@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<p>
+</p>
+<body>
+    <h2 align="center">Book Data</h2>
+
+    <form action="insert.php" method="get" align="center" onsubmit="return confirm('Insert new book?');">
+    
+        <label for="id">Enter ID:</label><br>
+        <input type="id" id="id" name="id" required><br>
+    
+        <label for="title">Enter Title:</label><br>
+        <input type="text" name="title" id="title" required><br>
+    
+        <label for="author">Enter Author:</label><br>
+        <input type="text" id="author" name="author" required><br>
+    
+        <label for="price">Enter Price:</label><br>
+        <input type="text" id="price" name="price" required><br>
+    
+        <label for="description">Enter Description:</label><br>
+        <input type="text" id="description" name="description" required><br>
+
+        <label for="publisher">Enter Publisher:</label><br>
+        <input type="text" id="publisher" name="publisher" required><br>
+
+        <label for="isbn">Enter Isbn:</label><br>
+        <input type="text" id="isbn" name="isbn" required><br>
+    
+        <br><input type="submit">
+    </form>
+    <p align="center"><a href="mainpage.php">cancel</a></p>
+    </body>
