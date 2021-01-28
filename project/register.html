@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="">
+    <style>
+
+body {
+            background-image: url(https://wallpapercave.com/wp/wp2968511.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        
+        }
+        .center {
+            margin: auto;
+            width: 40%;
+            border: 3px solid #000000;
+            background-color: #6495ED;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <br><br><br><br><br><br><br><br>
+    <div class="center">
+        <h2 align="center">Registration</h2>
+
+        <form action="register.php" enctype="multipart/form-data" method="post" align="center"
+            onsubmit="return confirm('Are you sure you want to register?');">
+    
+       
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value="" required><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="" required><br>
+    
+            <label for="ic">Ic:</label><br>
+            <input type="text" id="ic" name="ic" value="" required><br>
+    
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" value="" required><br><br>
+    
+            <input type="submit" value="Submit" class="button">
+        </form>
+        <p align="center"><a href="index.html">Already register? Login</a></p>
+    </div>
+
+</body>
+
+</html>
